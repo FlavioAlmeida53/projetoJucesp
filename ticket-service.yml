@@ -14,4 +14,5 @@ eureka:
      defaultZone: ${EUREKA_URI:http://localhost:9090/eureka}
   server:
     server:
-    wait-time-in-ms-when-sync-empty: 3000
+      enableSelfPreservation: false
+      wait-time-in-ms-when-sync-empty: 3000
