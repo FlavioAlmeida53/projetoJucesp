@@ -1,0 +1,17 @@
+spring:
+  h2:
+    console:
+      settings:
+        trace: true  
+server:
+  port: 9093
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+     defaultZone: ${EUREKA_URI:http://localhost:9090/eureka}
+  server:
+    server:
+    wait-time-in-ms-when-sync-empty: 3000
