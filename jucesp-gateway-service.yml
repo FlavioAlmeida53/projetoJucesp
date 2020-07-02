@@ -20,7 +20,7 @@ zuul:
     customer-service:
       path: /produtos/**
       serviceId: PRODUTO-SERVICE
-    customer-service:
+    account-service:
       path: /oaut/**
       serviceId: JUCESP-AUTH-SERVER
   host:
