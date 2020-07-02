@@ -15,9 +15,9 @@ zuul:
   routes:
     account-service: 
       path: /ticket/**
-      serviceId: TICKET-SERVICE
+      serviceId: ticket-service
     customer-service:
       path: /produtos/**
-      serviceId: PRODUTO-SERVICE
+      serviceId: produto-service
   host:
     socket-timeout-millis: 30000
