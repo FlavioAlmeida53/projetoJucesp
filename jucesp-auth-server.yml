@@ -3,10 +3,13 @@ server:
 
 eureka: 
   client:
-    register-with-eureka: true
-    fetch-registry: false
+    registerWithEureka: true
+    fetchRegistry: false
     service-url:
      defaultZone: ${EUREKA_URI:http://localhost:9090/eureka}
+  server:
+    enableSelfPreservation: false
+    wait-time-in-ms-when-sync-empty: 3000
 
 security:
     oauth2:
