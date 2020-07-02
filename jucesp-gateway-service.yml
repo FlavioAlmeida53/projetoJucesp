@@ -8,6 +8,7 @@ eureka:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:9090/eureka}
   server:
+    enableSelfPreservation: false
     wait-time-in-ms-when-sync-empty: 3000
 zuul:
   ignoredServices: '*'
