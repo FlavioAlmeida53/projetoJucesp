@@ -30,7 +30,7 @@ spring:
         password: 'Masterfa10.'
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://localhost:4306/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://localhost:4306/oauth?useTimezone=true&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
