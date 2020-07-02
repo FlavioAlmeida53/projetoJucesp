@@ -20,8 +20,8 @@ zuul:
     customer-service:
       path: /produtos/**
       serviceId: PRODUTO-SERVICE
-    customer-service:
-      path: /log/**
+    account-service: 
+      path: /oauth/**
       serviceId: JUCESP-AUTH-SERVICE
   host:
     socket-timeout-millis: 30000
