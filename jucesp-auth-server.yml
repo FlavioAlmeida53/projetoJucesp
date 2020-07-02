@@ -22,7 +22,8 @@ spring:
     datasource:
         data: classpath:/sql/data.sql
         driver-class-name: com.mysql.jdbc.Driver
-        password: 'Masterfa10.'
+        password: ENC(jucesp/eN0Y+nklwqH/CZsbccgV9PB8RYUCEzgz)
+#        password: 'Masterfa10.'
         platform: mysql
         schema: classpath:/sql/schema.sql
         url: jdbc:mysql://localhost:4306/oauth?useTimezone=true&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false&requireSSL=false
